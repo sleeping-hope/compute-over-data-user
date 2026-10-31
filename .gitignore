@@ -1,0 +1,77 @@
+# ============================================
+# LOCAL FOLDERS - USER SPECIFIC (DO NOT COMMIT)
+# ============================================
+local/
+personal/
+.env.local
+.env.*.local
+
+# ============================================
+# Environment & Config
+# ============================================
+.env
+*.env
+config/*.local.*
+.DS_Store
+
+# ============================================
+# Node modules & Dependencies
+# ============================================
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# Logs (Local)
+# ============================================
+storage/logs/
+*.log
+logs/
+
+# ============================================
+# IDE & Editor
+# ============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Cloud Sync (Do not sync secrets!)
+# ============================================
+OneDrive/
+.onedrive*
+~/Dropbox/
+~/Google Drive/
+
+# ============================================
+# Secrets & Credentials
+# ============================================
+.aws/
+.azure/
+secrets/
+credentials.json
+token.json
+*apikey*
+*api_key*
+*secret*
+*token*
+*password*
+.credentials
+
+# ============================================
+# Build & Cache
+# ============================================
+dist/
+build/
+.cache/
+*.o
+*.so
